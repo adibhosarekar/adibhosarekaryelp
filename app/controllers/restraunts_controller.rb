@@ -69,6 +69,6 @@ class RestrauntsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def restraunt_params
-      params.require(:restraunt).permit(:name, :address, :phone, :website)
+      params.require(:restraunt).permit(:name, :address, :phone, :website, :image)
     end
 end
