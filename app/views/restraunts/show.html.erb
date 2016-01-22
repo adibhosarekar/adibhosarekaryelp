@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @restraunt.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @restraunt.address %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @restraunt.phone %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @restraunt.website %>
+</p>
+
+<%= link_to 'Edit', edit_restraunt_path(@restraunt),class: "btn btn-link" %> |
+<%= link_to 'Back', restraunts_path,class: "btn btn-link" %>
